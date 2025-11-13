@@ -35,7 +35,7 @@
       }
     ]
   },
-  "model": "tiger",
+  "model": "panther",
   "env": {
     "ANTHROPIC_AUTH_TOKEN": "sk-1234-tap-tap-go",
     "ANTHROPIC_BASE_URL": "https://mercor-rl--litellm-proxy-serve.modal.run"

@@ -1,13 +1,12 @@
 """Tests for the main CLI application."""
-import json
-import os
-import tempfile
-from pathlib import Path
-
 import sys
+from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent / 'src'))
 
-from main import load_customers, filter_customers, save_results
+from main import load_customers, filter_customers, save_results  # noqa: E402
+import json  # noqa: E402
+import os  # noqa: E402
+import tempfile  # noqa: E402
 
 
 def test_load_customers():

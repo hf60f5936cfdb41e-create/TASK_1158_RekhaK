@@ -37,7 +37,7 @@ def filter_customers(customers: List[Dict[str, Any]],
 
     if min_age is not None:
         filtered = [c for c in filtered
-                   if c.get('age') and int(c.get('age')) >= min_age]
+                    if c.get('age') and int(c.get('age')) >= min_age]
 
     return filtered
 
